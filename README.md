@@ -1,6 +1,6 @@
 # Event Management App
 
-This is a real-time event management application where users can register as **Organizers** or **Joiners** to create and participate in events. The app is built with **Flask** for the backend, **React** for the frontend, and **Socket.IO** to support real-time updates.
+This is a real-time event management application where users can register as **Organizers** or **Joiners** to create and participate in events. The app is built with **Flask** for the backend, **React** for the frontend.
 
 ## Features
 
@@ -9,7 +9,7 @@ This is a real-time event management application where users can register as **O
    - **Organizers** can create and delete their own events.
    - **Joiners** can join or leave any available event.
 
-2. **Real-Time Notifications**  
+2. **Real-Time Updates**  
    - Actions like creating, joining, or leaving events are broadcast to all users in real-time using **Socket.IO**, enabling immediate updates across sessions.
 
 3. **Intuitive UI and Real-time Dashboard**  
@@ -77,12 +77,12 @@ This is a real-time event management application where users can register as **O
 ### Step 4: Testing
 
 - Wrote automated tests covering major functionalities:
-  1. **Organizer registration** and login.
-  2. **Event creation** by the Organizer.
-  3. **Logout** for the Organizer.
-  4. **Joiner registration** and login.
-  5. **Joining an event** by the Joiner.
-  6. **Leaving the event** by the Joiner.
+  1. **Organizer registration and login.**
+  2. **Event creation by the Organizer.**
+  3. **Logout for the Organizer.**
+  4. **Joiner registration and login.**
+  5. **Joining an event by the Joiner.**
+  6. **Leaving the event by the Joiner.**
   
 - All tests passed successfully, verifying stability in key features.
 
